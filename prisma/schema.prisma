@@ -1,6 +1,5 @@
 generator client {
   provider = "prisma-client-js"
-  output   = "../src/generated/prisma"
 }
 
 datasource db {
@@ -72,7 +71,7 @@ model Transaction{
 
 enum TransactionType{
   INCOME
-  EXPENSES
+  EXPENSE
 }
 
 enum RecurringInterval{
